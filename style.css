@@ -103,7 +103,7 @@ h6 {
 
 img {
 	border: none;
-	max-width: 100%;
+	max-width: 120%;
 }
 
 strong {
@@ -270,20 +270,21 @@ button:focus {
 	line-height: 30px;
 }
 
+.navbar-default .navbar-brand span {
+	color: #545454;
+}
+
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
 	color: #fff;
 }
 
-.navbar-brand img{
-	margin-top: -12px;
-}
 
 #mu-header.mu-fixed-nav{
 	background-color: rgba(0,0,0,0.8);
 	width: 100%;
 	position: fixed;
-	padding: 40px 0;
+	padding: 50px 0;
 }
 
 /*--------------------*/
@@ -368,12 +369,12 @@ button:focus {
 
 .mu-hero-left h1 {
 	color: #fff;
-	font-size: 50px;
+	font-size: 45px;
 	margin-bottom: 20px;
 }
 
-.mu-hero-left p {
-	color: #fff;
+.mu-hero-left h3 {
+	color: #545454;
 	margin-bottom: 20px;
 }
 
@@ -513,15 +514,13 @@ button:focus {
 	margin: 10px 0 15px;
 }
 
-.mu-book-overview-icon-box {
-	font-size: 25px;
-	padding: 5px 12px;
-	margin-bottom: 30px;
-	display: inline-block;
+.mu-book-overview-single img{
+	height: 40px;
+	width: 40px;
 }
 
 .mu-book-overview-single h4{
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 
@@ -607,14 +606,14 @@ button:focus {
 .mu-author-image {
 	display: inline;
 	float: left;
-	width: 100%;
+	width: 90%;
 }
 
 .mu-author-info {
 	display: inline;
-	float: left;
+	float: right;
 	margin-top: 20px;
-	width: 100%;
+	width: 90%;
 }
 
 .mu-author-info h3 {
@@ -973,21 +972,6 @@ button:focus {
           border-radius: 4px;
 }
 
-
-/* GOOGLE MAP */
-
-#mu-google-map {
-	display: inline;
-	float: left;
-	width: 100%;
-}
-
-#mu-google-map iframe{
-    pointer-events: none;
-}
-
-
-/*--------------------*/
 /* FOOTER */
 /*--------------------*/
 
@@ -1177,7 +1161,7 @@ button:focus {
 @media (max-width: 640px){
 
 	#mu-header.mu-fixed-nav {
-		padding: 10px 0;
+		padding: 50px 0;
 	}
 	
 	.mu-heading-area {
@@ -1295,16 +1279,6 @@ button:focus {
 		padding: 1rem 1rem;
 		font-size: 12px;
 	}
-	
-}
-
-
-
-@media (max-width: 320px){
-	
-	
-	
-	
 	
 }
 
