@@ -53,10 +53,11 @@
 	background: #fff;
 	padding: 20px 10px;
 	margin: 10px 0 15px;
+	height: 280px;
 }
 
 .mu-book-overview-single img{
-	height: auto;
+	height: 100px;
 	width: auto;
 }
 

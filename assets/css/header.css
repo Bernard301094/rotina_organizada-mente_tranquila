@@ -41,3 +41,6 @@
 	padding: 50px 0;
 }
 
+#mu-header.mu-fixed-nav .navbar-default .navbar-brand span {
+	color: #fff;
+}
