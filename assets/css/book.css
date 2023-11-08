@@ -1,0 +1,65 @@
+/*--------------------*/
+/* BOOK OVERVIEW */
+/*--------------------*/
+
+#mu-book-overview {
+	background-color: #f8f8f8;
+	display: inline;
+	float: left;
+	width: 100%;
+}
+
+.mu-book-overview-area {
+	display: inline;
+	float: left;
+	padding: 100px 0;
+	width: 100%;
+}
+
+.mu-heading-area {
+	display: inline;
+	float: left;
+	text-align: center;
+	padding: 0 10%;
+	width: 100%;
+}
+
+.mu-heading-title {
+	color: #1c1b1b;
+	margin-bottom: 15px;
+	position: relative;
+}
+
+.mu-header-dot {
+	border-radius: 0;
+	height: 3px;
+	width: 100px;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.mu-book-overview-content{
+	display: inline;
+	float: left;
+	margin-top: 70px;
+	width: 100%;
+}
+
+.mu-book-overview-single {
+	display: inline;
+	float: left;
+	text-align: center;
+	width: 100%;
+	background: #fff;
+	padding: 20px 10px;
+	margin: 10px 0 15px;
+}
+
+.mu-book-overview-single img{
+	height: auto;
+	width: auto;
+}
+
+.mu-book-overview-single h4{
+	margin-bottom: 10px;
+}

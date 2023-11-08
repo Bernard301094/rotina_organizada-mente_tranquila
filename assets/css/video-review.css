@@ -1,0 +1,52 @@
+/*--------------------*/
+/* VIDEO REVIEW */
+/*--------------------*/
+
+
+#mu-video-review {
+	background-attachment: fixed;
+	background-size: cover;
+	display: inline;
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+#mu-video-review:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0.84;
+}
+
+.mu-video-review-area {
+	display: inline;
+	float: left;
+	padding: 150px 0;
+	width: 100%;
+}
+
+.mu-video-review-area .mu-heading-title, 
+.mu-video-review-area .mu-heading-area p{
+	color: #fff;
+}
+
+.mu-video-review-area .mu-header-dot {
+	background-color: #f8f8f8;
+}
+
+.mu-video-review-content {
+	display: inline;
+	float: left;
+	margin-top: 70px;
+	width: 100%;
+	padding: 0 10%;
+}
+
+.mu-video-iframe {
+	height: 550px;
+}
+

@@ -1,0 +1,47 @@
+/*--------------------*/
+/* HERO SECTION */
+/*--------------------*/
+
+#mu-hero {
+	display: inline;
+	float: left;
+	padding: 160px 0 90px;
+	width: 100%;
+}
+
+.mu-hero-left{
+	display: inline;
+	float: left;
+	width: 100%;
+}
+
+.mu-hero-right {
+	display: inline;
+	float: left;
+	width: 100%;
+}
+
+.mu-hero-left h1 {
+	color: #fff;
+	font-size: 45px;
+	margin-bottom: 20px;
+}
+
+.mu-hero-left h3 {
+	color: #545454;
+	margin-bottom: 20px;
+}
+
+.mu-hero-left .mu-primary-btn {
+	margin-top: 20px;
+	background-color: #fff;
+	font-weight: 600;
+}
+
+.mu-hero-left span {
+	display: block;
+	margin-top: 10px;
+	color: #f8f8f8;
+}
+
+
