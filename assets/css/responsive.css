@@ -3,7 +3,6 @@
 /*--------------------*/
 
 @media (max-width: 1199px) {
-	
 	.mu-hero-left h1 {
 		font-size: 36px;
 	}
@@ -28,11 +27,13 @@
 	.mu-pricing-single img {
 		max-width: 100%;
 	}
+	.mu-hero-right img {
+        max-width: 100%;
+        height: auto;
+    }
 }
 
 @media (max-width: 991px) {
-
-
 	.mu-fixed-nav .navbar-brand img {
 		margin-top: -7px;
 	}
@@ -76,13 +77,20 @@
 		padding: 0 5%;
 	}
 
-	.mu-video-iframe {
-		height: 400px;
-	}
-	
 	.mu-pricing-single img {
 		max-width: 100%; /* Hacer la imagen responsiva */
 	}
+
+	.mu-hero-right img {
+        max-width: 100%; /* Asegura que la imagen no se corte y se ajuste al ancho del contenedor */
+        height: auto; /* Ajusta la altura automáticamente para mantener la proporción de aspecto */
+    }
+
+	.mu-hero-right img {
+        max-width: 100%;
+        height: auto;
+    }
+
 }
 
 @media (max-width: 767px) {
@@ -110,6 +118,7 @@
 
 	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
 		background-color: rgba(0,0,0,0.8);
+		margin-top: 25px;
 		text-align: center;
 	}
 
@@ -118,7 +127,7 @@
 	}
 
 	.mu-hero-right {
-		margin-top: 0;
+		margin: 0;
 	}
 
 	.mu-hero-right img {
@@ -126,7 +135,7 @@
 	}
 
 	#mu-hero {
-		padding: 100px 0 60px;
+		padding: 160px 0 60px;
 	}
 
 	.mu-author-info {
@@ -139,7 +148,12 @@
 
 	.mu-pricing-single img {
 		max-width: 100%; /* Hacer la imagen responsiva */
-	  }
+	}
+
+	.mu-hero-right img {
+        max-width: 100%;
+        height: auto;
+    }
 
 }
 
@@ -170,6 +184,11 @@
 	.mu-pricing-single img {
 		max-width: 100%; /* Hacer la imagen responsiva */
 	}
+
+	.mu-hero-right img {
+        max-width: 100%;
+        height: auto;
+    }
 
 }
 
@@ -233,6 +252,11 @@
 		max-width: 100%; /* Hacer la imagen responsiva */
 	}
 
+	.mu-hero-right img {
+        max-width: 100%;
+        height: auto;
+    }
+
 }
 
 
@@ -274,4 +298,20 @@
 	.mu-pricing-single img {
 		max-width: 100%; /* Hacer la imagen responsiva */
 	}
+
+	.mu-hero-right img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 295px) {
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+		margin-top: 55px;
+	}
+
+	.mu-hero-right img {
+        max-width: 100%;
+        height: auto;
+    }
 }
