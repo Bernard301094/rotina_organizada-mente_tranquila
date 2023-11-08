@@ -514,8 +514,8 @@ button:focus {
 }
 
 .mu-book-overview-single img{
-	height: 40px;
-	width: 40px;
+	height: auto;
+	width: auto;
 }
 
 .mu-book-overview-single h4{
