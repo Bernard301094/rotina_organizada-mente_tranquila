@@ -28,8 +28,8 @@ Author URI : http://www.markups.io/
 .mu-social-media a:focus,
 .mu-order-btn:hover,
 .mu-order-btn:focus {
-	border: 1px solid #ff871c;
 	color: #ff871c;
+	background-color: #fff;
 }
 
 .mu-send-msg-btn {

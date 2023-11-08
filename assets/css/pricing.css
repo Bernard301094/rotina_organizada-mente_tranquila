@@ -24,7 +24,6 @@
 }
 
 .mu-pricing-single {
-	background-color: #fff;
 	color: #555;
 	display: inline;
 	float: left;
@@ -74,13 +73,20 @@
 .mu-pricing-single-footer {
 	float: left;
 	width: 100%;
+	text-align: center;
+}
+
+.mu-pricing-single-footer img {
+	display: block;
+	margin: 0 auto;
+	width: 100%; /* You can change this value to adjust the image width */
 }
 
 .mu-order-btn {
-	background-color: transparent;
+	background-color: #ff871c;
 	border-radius: 100px;
 	border: 1px solid #555;
-	color: #555;
+	color: #fff;
 	display: inline-block;
 	font-size: 15px;
 	font-weight: 400;
@@ -92,11 +98,3 @@
 	text-transform: uppercase;
 }
 
-.mu-popular-price-tag {
-	color: #fff;
-}
-
-.mu-popular-price-tag .mu-order-btn {
-	background-color: #fff;
-	border: 1px solid #fff;
-}
