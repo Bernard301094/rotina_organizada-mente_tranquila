@@ -1,5 +1,45 @@
-.dropdown {
-    display: inherit;
-    justify-content: center;
+/*--------------------*/
+/* FAQ */
+/*--------------------*/
+
+#mu-faq {
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	display: inline;
+	float: left;
+	position: relative;
+	width: 100%;
+  }
+  
+  .dropdown-item {
+    text-align: left;
+    padding: 10px;
+  }
+
+  .dropdown-menu {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: absolute; /* Establece la posición del menú desplegable */
+    z-index: 1; /* Asegura que esté por encima de otros elementos */
+  }
+
+  .center-button {
+    color: #ff871c;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    width: 100%;
+    text-align: left;
+    margin-left: 200px;
+    font-weight: 700;
+  }
+
+  .icon-right {
+    margin-right: 500px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #ccc;
   }

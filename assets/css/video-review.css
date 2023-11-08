@@ -3,7 +3,7 @@
 /*--------------------*/
 
 
-#mu-video-review {
+#mu-ebook-review {
 	background-attachment: fixed;
 	background-size: cover;
 	display: inline;
@@ -12,7 +12,7 @@
 	width: 100%;
 }
 
-#mu-video-review:before {
+#mu-ebook-review:before {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -22,23 +22,23 @@
 	opacity: 0.84;
 }
 
-.mu-video-review-area {
+.mu-ebook-review-area {
 	display: inline;
 	float: left;
 	padding: 150px 0;
 	width: 100%;
 }
 
-.mu-video-review-area .mu-heading-title, 
-.mu-video-review-area .mu-heading-area p{
+.mu-ebook-review-area .mu-heading-title, 
+.mu-ebook-review-area .mu-heading-area p{
 	color: #fff;
 }
 
-.mu-video-review-area .mu-header-dot {
+.mu-ebook-review-area .mu-header-dot {
 	background-color: #f8f8f8;
 }
 
-.mu-video-review-content {
+.mu-ebook-review-content {
 	display: inline;
 	float: left;
 	margin-top: 70px;

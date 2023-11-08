@@ -50,9 +50,11 @@
 .mu-author-social {
 	display: inline;
 	float: left;
-	margin-top: 25px;
 	width: 100%;
+	margin-left: 50px; /* cambia el margen de los íconos */
 }
+
+
 
 .mu-author-social a {
 	display: inline-block;

@@ -11,7 +11,6 @@
 @import url(../css/author.css);
 @import url(../css/pricing.css);
 @import url(../css/faq.css);
-@import url(../css/testimonials.css);
 @import url(../css/contact.css);
 @import url(../css/footer.css);
 @import url(../css/responsive.css);
@@ -95,7 +94,7 @@ h6 {
 
 img {
 	border: none;
-	max-width: 120%;
+	max-width: 100%;
 }
 
 strong {

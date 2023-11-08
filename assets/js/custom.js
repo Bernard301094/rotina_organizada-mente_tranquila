@@ -1,21 +1,3 @@
-/**	
-	* Template Name: Kindle
-	* Version: 1.0	
-	* Template Scripts
-	* Author: MarkUps
-	* Author URI: http://www.markups.io/
-
-	Custom JS
-	
-	1. FIXED MENU
-	2. MENU SMOOTH SCROLLING
-	3. GOOGLE MAP
-	4. READER TESTIMONIALS ( SLICK SLIDER )
-	5. MOBILE MENU CLOSE 
-	
-**/
-
-
 
 (function( $ ){
 
@@ -90,28 +72,10 @@
 
 
 	/* ----------------------------------------------------------- */
-	/*  3. GOOGLE MAP
-	/* ----------------------------------------------------------- */ 
-		    
-	    $('#mu-google-map').click(function () {
-
-		    $('#mu-google-map iframe').css("pointer-events", "auto");
-
-		});
-		
-		$("#mu-google-map").mouseleave(function() {
-
-		  $('#mu-google-map iframe').css("pointer-events", "none"); 
-
-		});
-		
-		
-
-	/* ----------------------------------------------------------- */
 	/*  4. READER TESTIMONIALS (SLICK SLIDER)
 	/* ----------------------------------------------------------- */
 
-		$('.mu-testimonial-slide').slick({
+		$('.mu-faq-slide').slick({
 			arrows: false,
 			dots: true,
 			infinite: true,
