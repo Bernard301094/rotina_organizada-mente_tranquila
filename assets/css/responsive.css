@@ -20,10 +20,6 @@
 		margin-top: 0px;
 	}
 
-	.mu-video-iframe {
-		height: 450px;
-	}
-
 	.mu-pricing-single img {
 		max-width: 100%;
 	}
@@ -35,13 +31,15 @@
 }
 
 @media (max-width: 991px) {
-	.mu-fixed-nav .navbar-brand img {
-		margin-top: -7px;
+	
+	.mu-fixed-nav .navbar-brand {
+		font-size: 25px;
 	}
 	
 	.navbar-default .mu-menu li a {
 		font-size: 14px;
 		margin: 10px 5px;
+		padding-top: 0;
 	}	
 
 	#mu-hero {
@@ -94,7 +92,18 @@
 	.container-header {
 		margin-left: 25px;
 	}
+
+	.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+		margin-right: 0;
+		margin-left: -50px;
+		padding: 0 5px;
+		}
+
+		#mu-header.mu-fixed-nav {
+			padding: 25px 0px 45px 7px;
+		}
 }
+
 
 @media (max-width: 767px) {
 
