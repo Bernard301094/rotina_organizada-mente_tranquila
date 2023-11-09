@@ -31,6 +31,7 @@
         max-width: 100%;
         height: auto;
     }
+
 }
 
 @media (max-width: 991px) {
@@ -314,4 +315,15 @@
         max-width: 100%;
         height: auto;
     }
+}
+
+@media (min-width: 769px) {
+
+	.accordion .content-accordion {
+		margin: 0 0 0 220px;
+	}
+
+	.accordion label {
+		margin-left: 200px;
+	}
 }
