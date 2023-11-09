@@ -320,7 +320,7 @@
 @media (min-width: 769px) {
 
 	.accordion .content-accordion {
-		margin: 0 0 0 220px;
+		margin: 0 50px 0 220px;
 	}
 
 	.accordion label {
