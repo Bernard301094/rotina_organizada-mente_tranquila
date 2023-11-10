@@ -10,7 +10,8 @@
 }
 
 .mu-hero-left{
-	display: inline;
+	display: flex;
+	flex-direction: column;
 	float: left;
 	width: 100%;
 }
@@ -24,7 +25,7 @@
 .mu-hero-left h1 {
 	color: #fff;
 	font-size: 45px;
-	margin: 60px 0;
+	margin: 35px 0 60px 0;
 }
 
 .mu-hero-left h3 {
@@ -35,11 +36,26 @@
 .mu-hero-left .mu-primary-btn {
 	margin-top: 20px;
 	background-color: #fff;
-	font-weight: 600;
+	font-weight: 700;
+	text-align: center;
+	border: 2px solid #545454;
 }
 .mu-hero-left span {
     text-align: center;
 	margin: 10px 0 10px 20px;
-	color: #f8f8f8;
+	color: #545454;
+	font-weight: 700;
 }
 
+span.redline {
+	display: block;
+    color: #fff;
+	font-size: 30px;
+	font-weight: 600;
+	margin-top: 450px;
+}
+
+.mu-hero-right img {
+    max-width: 110%;  /* Establece el ancho máximo al 100% para que la imagen sea receptiva */
+    height: auto;     /* Asegura que la altura se ajuste automáticamente para mantener la proporción */
+}

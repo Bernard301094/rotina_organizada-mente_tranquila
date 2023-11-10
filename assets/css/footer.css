@@ -28,12 +28,12 @@
 
 .mu-social-media a {
 	display: inline-block;
-	font-size: 15px;
+	font-size: 40px;
 	width: 35px;
 	height: 35px;
-	line-height: 33px;
+	line-height:33px;
 	text-align: center;
-	margin: 0 5px;
+	margin: 0 20px;
 	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
 	border-radius: 50%;

@@ -28,6 +28,10 @@
         height: auto;
     }
 
+	span.redline {
+		font-size: 25px;
+	}
+
 }
 
 @media (max-width: 991px) {
@@ -102,6 +106,11 @@
 		#mu-header.mu-fixed-nav {
 			padding: 25px 0px 45px 7px;
 		}
+
+		span.redline {
+			font-size: 20px;
+			margin-top: 500px;
+		}
 }
 
 @media (max-width: 990px) {
@@ -119,6 +128,14 @@
 
 }
 
+@media (max-width: 900px) {
+    .mu-hero-right img {
+        max-width: 120%;
+		height: auto;
+
+    }
+}
+
 @media (max-width: 850px) {
     #mu-header.mu-fixed-nav {
         padding: 25px 50px 45px 0px;
@@ -131,7 +148,13 @@
     .navbar-default .mu-menu {
         margin-right: -10px; /* Ajusta o elimina este margen según sea necesario */
     }
+}
 
+@media (max-width: 800px) {
+    .mu-hero-right img {
+        max-width: 100%;
+        height: auto;
+    }
 }
 
 @media (max-width: 767px) {
@@ -168,11 +191,12 @@
 	}
 
 	.mu-hero-right img {
-		width: 100%;
+		max-width: 0%;
+		height: auto;
 	}
 
 	#mu-hero {
-		padding: 160px 0 60px;
+		padding: 130px 0 60px;
 	}
 
 	.mu-author-info {
@@ -195,7 +219,9 @@
 	.navbar-default .navbar-toggle {
 		margin-top: 25px;
 	}
-
+	.mu-hero-left {
+		padding-bottom: 30px;
+	}
 }
 
 @media (max-width: 640px){
@@ -223,14 +249,13 @@
 	}
 
 	.mu-hero-right img {
-        max-width: 100%;
+        max-width: 70%;
         height: auto;
     }
 
 	#mu-header.mu-fixed-nav{
 		padding: 10px 0px 45px 0;
 	}
-
 }
 
 
