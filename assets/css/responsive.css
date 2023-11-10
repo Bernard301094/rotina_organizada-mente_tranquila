@@ -129,7 +129,7 @@
     }
 
     .navbar-default .mu-menu {
-        margin-right: -30px; /* Ajusta o elimina este margen según sea necesario */
+        margin-right: -10px; /* Ajusta o elimina este margen según sea necesario */
     }
 
 }
@@ -375,7 +375,7 @@
 	}
 
 	.accordion label {
-		margin-left: 200px;
+		margin-left: 100px;
 	}
 
 }
