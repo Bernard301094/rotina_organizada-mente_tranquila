@@ -33,16 +33,10 @@
 	}
 }
 
-@media (min-width: 992px) {
-    .navbar-brand {
-        font-size: 24px; /* Ajusta el tamaño de la fuente del navbar-brand en pantallas grandes */
-    }
-}
-
 @media (max-width: 991px) {
 	
 	.mu-fixed-nav .navbar-brand {
-		font-size: 22px;
+		font-size: 25px;
 	}
 	
 	.navbar-default .mu-menu li a {
@@ -169,7 +163,6 @@
 
 	.navbar-default .navbar-toggle {
 		border-color: #fff;
-		font-size: 20px;
 	}
 
 	.navbar-default .navbar-toggle:hover,
@@ -226,14 +219,9 @@
 	.redline {
 		margin-left: 28%;
 	}
-
-	.mu-hero-left h1 {
-        font-size: 28px; /* Ajusta el tamaño de la fuente del h1 en pantallas pequeñas */
-    }
-
-    .mu-hero-left h3 {
-        font-size: 16px; /* Ajusta el tamaño de la fuente del h3 en pantallas pequeñas */
-    }
+	.redline {
+		margin-left: 28%;
+	}
 }
 
 @media (max-width: 640px){
@@ -437,12 +425,6 @@
 
 	#mu-header.mu-fixed-nav{
 		padding: 10px 0px 45px 0;
-	}
-}
-
-@media (min-width: 768px) {
-	.navbar-brand {
-        font-size: 22px;
 	}
 }
 
