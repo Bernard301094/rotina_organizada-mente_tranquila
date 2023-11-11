@@ -31,7 +31,6 @@
 	span.redline {
 		font-size: 25px;
 	}
-
 }
 
 @media (max-width: 991px) {
@@ -103,14 +102,14 @@
 		padding: 0 5px;
 		}
 
-		#mu-header.mu-fixed-nav {
-			padding: 25px 0px 45px 7px;
-		}
+	#mu-header.mu-fixed-nav {
+		padding: 25px 0px 45px 7px;
+	}
 
-		span.redline {
-			font-size: 20px;
-			margin-top: 500px;
-		}
+	span.redline {
+		font-size: 20px;
+		margin-top: 500px;
+	}
 }
 
 @media (max-width: 990px) {
@@ -131,14 +130,13 @@
 @media (max-width: 900px) {
     .mu-hero-right img {
         max-width: 120%;
-		height: auto;
 
     }
 }
 
 @media (max-width: 850px) {
     #mu-header.mu-fixed-nav {
-        padding: 25px 50px 45px 0px;
+        padding: 25px 0px 45px 0px;
     }
 
     .container-header {
@@ -190,13 +188,8 @@
 		margin: 0;
 	}
 
-	.mu-hero-right img {
-		max-width: 0%;
-		height: auto;
-	}
-
 	#mu-hero {
-		padding: 130px 0 60px;
+		padding: 115px 0 60px;
 	}
 
 	.mu-author-info {
@@ -222,14 +215,16 @@
 	.mu-hero-left {
 		padding-bottom: 30px;
 	}
+
+	.redline {
+		margin-left: 28%;
+	}
+	.redline {
+		margin-left: 28%;
+	}
 }
 
 @media (max-width: 640px){
-
-	#mu-header.mu-fixed-nav {
-		padding: 50px 0;
-	}
-	
 	.mu-heading-area {
 		padding: 0;
 	}
@@ -256,14 +251,24 @@
 	#mu-header.mu-fixed-nav{
 		padding: 10px 0px 45px 0;
 	}
+	.redline {
+		margin-left: 24%;
+	}
+
+	.container-fluid {
+		padding-right: 0px;
+		padding-left: 15px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.row {
+		margin-right: -240px;
+		margin-left: -25px;
+	}
 }
 
-
 @media (max-width: 480px) {
-
-	.navbar-brand img {
-		width: 150px;
-	}
 
 	#mu-header {
 		padding: 10px 0;
@@ -322,6 +327,45 @@
 	.navbar-default .navbar-toggle {
 		margin-top: 30px;
 	}
+
+	.redline {
+		margin-left: 8%;
+	}
+
+	.row {
+		margin-right: -30px;
+		margin-left: -25px;
+	}
+}
+
+@media (max-width: 390px) {
+    .mu-hero-left {
+        margin-bottom: 10px; /* Ajusta este valor según sea necesario */
+    }
+
+    .navbar-brand {
+        margin-bottom: 5px; /* Ajusta este valor según sea necesario */
+    }
+
+    .mu-hero-left h1 {
+        font-size: 24px; /* Ajusta el tamaño de la fuente del encabezado según sea necesario */
+        margin: 20px 0 10px; /* Ajusta los márgenes del encabezado según sea necesario */
+    }
+
+    .mu-hero-left h3 {
+        font-size: 16px; /* Ajusta el tamaño de la fuente del subencabezado según sea necesario */
+        margin-bottom: 10px; /* Ajusta el margen inferior del subencabezado según sea necesario */
+    }
+
+    .mu-primary-btn {
+        font-size: 12px; /* Ajusta el tamaño de la fuente del botón según sea necesario */
+        padding: 8px 16px; /* Ajusta el relleno del botón según sea necesario */
+    }
+
+    span.redline {
+        font-size: 18px; /* Ajusta el tamaño de la fuente del span según sea necesario */
+        margin-top: 10px; /* Ajusta el margen superior del span según sea necesario */
+    }
 }
 
 
@@ -365,9 +409,8 @@
 	}
 
 	.mu-hero-right img {
-        max-width: 100%;
-        height: auto;
-    }
+		max-width: 100%;
+	}
 }
 
 @media (max-width: 295px) {
@@ -386,7 +429,6 @@
 }
 
 @media (min-width: 769px) {
-
 	.accordion .content-accordion {
 		margin: 0 50px 0 220px;
 	}
@@ -394,5 +436,4 @@
 	.accordion label {
 		margin-left: 100px;
 	}
-
 }
