@@ -109,7 +109,8 @@
 
 		span.redline {
 			font-size: 20px;
-			margin-top: 500px;
+			margin: 0;
+			text-align: center;
 		}
 }
 
@@ -188,6 +189,8 @@
 
 	.mu-hero-right {
 		margin: 0;
+		display: flex;
+        justify-content: center;
 	}
 
 	.mu-hero-right img {
@@ -221,6 +224,7 @@
 	}
 	.mu-hero-left {
 		padding-bottom: 30px;
+		float: none;
 	}
 }
 
