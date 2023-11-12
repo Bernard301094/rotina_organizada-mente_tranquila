@@ -12,6 +12,13 @@
 	width: 100%;
   }
 
+  .mu-faq-area {
+    display: inline;
+    float: left;
+    padding: 100px 0;
+    width: 100%;
+}
+
   .accordion {
     background-color: #fff;
   }
