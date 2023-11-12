@@ -31,64 +31,50 @@
 	span.redline {
 		font-size: 25px;
 	}
-
 }
 
 @media (max-width: 991px) {
-	
 	.mu-fixed-nav .navbar-brand {
 		font-size: 25px;
 	}
-	
 	.navbar-default .mu-menu li a {
 		font-size: 14px;
 		margin: 10px 5px;
 		padding-top: 0;
 	}	
-
 	#mu-hero {
 		padding: 130px 0 30px;
 	}
-
 	.mu-hero-right {
 		margin-top: 40px;
 	}
-
 	.mu-primary-btn {
 		font-size: 14px;
 		padding: 12px 22px;
 	}
-
 	.mu-single-counter {
 		margin-top: 15px;
 		margin-bottom: 40px;
 	}
-
 	.mu-simplefilter li{
 		margin-bottom: 10px;
 	}
-
 	.mu-clients-content-single img{
 		width: 100%;
 	}
-
 	.mu-contact-right {
 		margin-top: 50px;
 	}
-	
 	.mu-ebook-review-content {
 		padding: 0 5%;
 	}
-
 	.mu-pricing-single img {
 		max-width: 100%; /* Hacer la imagen responsiva */
 	}
-
 	.mu-hero-right img {
         max-width: 100%; /* Asegura que la imagen no se corte y se ajuste al ancho del contenedor */
         height: auto; /* Ajusta la altura automáticamente para mantener la proporción de aspecto */
     }
-
 	.mu-hero-right img {
         max-width: 100%;
         height: auto;
@@ -96,21 +82,22 @@
 	.container-header {
 		margin-left: 25px;
 	}
-
 	.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
 		margin-right: 0;
 		margin-left: -50px;
 		padding: 0 5px;
 		}
-
 		#mu-header.mu-fixed-nav {
 			padding: 25px 0px 45px 7px;
 		}
-
 		span.redline {
-			font-size: 20px;
-			margin: 0;
-			text-align: center;
+		font-size: 20px;
+		margin: 0;
+		text-align: center;
+		}
+		.mu-hero-left h1 {
+			position: relative;
+			right: 20px;
 		}
 }
 
@@ -133,7 +120,6 @@
     .mu-hero-right img {
         max-width: 120%;
 		height: auto;
-
     }
 }
 
@@ -151,74 +137,54 @@
     }
 }
 
-@media (max-width: 800px) {
-    .mu-hero-right img {
-        max-width: 100%;
-        height: auto;
-    }
-}
 
 @media (max-width: 767px) {
-
 	.navbar-default .navbar-brand {
 		margin-top: -7px;
 	}
-
 	.navbar-default .navbar-toggle {
 		border-color: #fff;
 	}
-
 	.navbar-default .navbar-toggle:hover,
 	.navbar-default .navbar-toggle:focus{
 		background-color: transparent;
 	}
-
 	.navbar-default .navbar-toggle .icon-bar {
 		background-color: #fff;
 	}
-
 	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
 		background-color: rgba(0,0,0,0.8);
 		margin-top: 25px;
 		text-align: center;
 	}
-
 	.navbar-default .mu-menu li a {
 		display: inline-block;
 	}
-
 	.mu-hero-right {
 		margin: 0;
 		display: flex;
         justify-content: center;
 	}
-
 	.mu-hero-right img {
 		max-width: 0%;
 		height: auto;
 	}
-
 	#mu-hero {
 		padding: 130px 0 60px;
 	}
-
 	.mu-author-info {
 		margin-top: 30px;
 	}
-
 	.mu-contact-content {
 		padding: 0 10%;
 	}
-
 	.mu-pricing-single img {
 		max-width: 100%; /* Hacer la imagen responsiva */
 	}
-
 	.mu-hero-right img {
         max-width: 100%;
         height: auto;
     }
-
 	.navbar-default .navbar-toggle {
 		margin-top: 25px;
 	}
@@ -226,177 +192,583 @@
 		padding-bottom: 30px;
 		float: none;
 	}
+	.mu-hero-right {
+		position: relative;
+		top: 130px;
+	}
+	.mu-hero-left h1 {
+		position: relative;
+		bottom: 570px;
+		left: 15px;
+	}
+}
+
+@media (max-width: 739px) {
+	.mu-hero-left h1 {
+		bottom: 550px;
+		left: 15px;
+	}
+}
+
+@media (max-width: 715px) {
+	.mu-hero-left h1 {
+		bottom: 530px;
+		left: 15px;
+	}
+
+	.mu-hero-right {
+		top: 110px;
+		bottom: 30px;
+	}
+}
+
+ @media (max-width: 670px) { /* MAX-WIDTH: 670px */
+	.mu-hero-left h1 {
+		bottom: 510px;
+	}
+	.mu-hero-left h3 {
+		position: relative;
+		bottom: 30px;
+	}
+	.mu-hero-left .mu-primary-btn {
+		position: relative;
+		bottom: 30px;
+	}
+	.mu-hero-left span {
+		position: relative;
+		bottom: 20px;
+	}
+	.redline {
+		position: relative;
+		bottom: 30px;
+	}
+	#mu-hero {
+		padding: 130px 0 0 0;
+	}
 }
 
 @media (max-width: 640px){
-
 	#mu-header.mu-fixed-nav {
 		padding: 50px 0;
 	}
-	
 	.mu-heading-area {
 		padding: 0;
 	}
-
 	.mu-primary-btn {
 		font-size: 12px;
 		padding: 10px 12px;
 		margin-top: 15px;
 	}
-
 	.slick-dots {
 		bottom: 15px;
 	}
-	
 	.mu-pricing-single img {
 		max-width: 100%; /* Hacer la imagen responsiva */
 	}
-
 	.mu-hero-right img {
         max-width: 70%;
         height: auto;
     }
-
 	#mu-header.mu-fixed-nav{
 		padding: 10px 0px 45px 0;
 	}
+	.mu-hero-left h1 {
+		bottom: 500px;
+	}
+	.redline {
+		bottom: 30px;
+	}
+	.mu-hero-right img{
+		max-width: 100%;
+	}
+}
+/* 
+@media (max-width: 630px) {
+	.mu-hero-left h1 {
+		bottom: 490px;
+	}
+	.mu-hero-right {
+		top: 110px;
+	}
 }
 
+@media (max-width: 625px) {
+	.mu-hero-left h1 {
+		bottom: 480px;
+	}
+}
+
+@media (max-width: 600px) {
+	.mu-hero-left h1 {
+		bottom: 460px;
+	}
+	.mu-hero-right{
+		top: 150px;
+	}
+}
+
+@media (max-width: 550px) {
+	.mu-hero-left h1 {
+		bottom: 420px;
+	}
+}
+
+@media (max-width: 500px) {
+	.mu-hero-left h1 {
+		bottom: 400px;
+	}
+} */
 
 @media (max-width: 480px) {
-
 	.navbar-brand img {
 		width: 150px;
 	}
-
 	#mu-header {
 		padding: 10px 0;
 	}
-
 	.navbar-default .navbar-brand {
 		font-size: 25px;
 		margin-top: -3px;
 	}
-
 	.navbar-toggle {
 		padding: 7px 8px;
 		margin-top: 10px;
 	}
-
 	.navbar-toggle .icon-bar {
 		width: 18px;
 	}
-
 	h2{
 		font-size: 25px;
 	}
-
 	.mu-heading-title {
 		margin-bottom: 10px;
 	}
-
 	.mu-contact-content {
 		padding: 0 5%;
 	}
-
 	.mu-about-content-single h4 {
 		margin-bottom: 18px;
 	}
-
 	.mu-team-social-info a {
 		width: 35px;
 		height: 35px;
 		font-size: 16px;
 		line-height: 35px;
 	}
-
 	.mu-contact-form button {
 		width: 100%;
 	}
-
 	.mu-pricing-single img {
 		max-width: 100%; /* Hacer la imagen responsiva */
 	}
-
 	.mu-hero-right img {
         max-width: 100%;
         height: auto;
     }
-
 	.navbar-default .navbar-toggle {
 		margin-top: 30px;
 	}
 }
 
+@media (max-width: 390px) {
+	.mu-hero-right img {
+        max-width: 100%;
+        height: auto;
+    }
+	.mu-hero-left h1 {
+		bottom: 320px;
+		font-size: 30px;
+	}
+	.mu-hero-left h3 {
+		font-size: 20px;
+		position: relative;
+		bottom: 70px;
+		left: 10px;
+	}
+	.mu-hero-left .mu-primary-btn {
+		position: relative;
+		bottom: 80px;
+	}
+	.mu-hero-left span {
+		position: relative;
+		bottom: 80px;
+	}
+	span.redline {
+		font-size: 21px;
+		position: relative;
+		bottom: 75px;
+	}
+	.mu-hero-right img{
+		position: relative;
+		top: 0px;
+	}
+	.navbar-default .navbar-toggle {
+		position: relative;
+		left: 30px;
+		bottom: 15px;
+	}
+	.mu-hero-left{
+		padding: 0;
+	}
+	.mu-author-image {
+		position: relative;
+		right: 10px;
+	}
+	.mu-author-info {
+		position: relative;
+		right: 20px;
+	}
+	.mu-author-info h3{
+		text-align: center;
+	}
+	.mu-author-info img {
+		position: relative;
+		left: 60px;
+	}
+	.mu-author-info .mu-author-social {
+		position: relative;
+		left: 60px;
+	}
+}
+
 
 @media (max-width: 360px){
-
 	.mu-featured-slider-content {
 		top: 49%;
 	}
-
 	.mu-featured-slider-content p,
 	.mu-featured-slider-content .mu-primary-btn {
 		display: none;
 	}
-
 	.mu-featured-slider-content h1 {
 		font-size: 18px;
 		margin-bottom: 0;
 	}
-
 	.mu-filter-item-content {
 		padding-top: 25%;
 		padding-left: 5px;
 		padding-right: 5px;
 	}
-
 	.filtr-item h4 {
 		font-size: 12px;
 	}
-
 	.mu-team-content .row > div {
 		width: 100%;
 	}
-
 	.mu-simplefilter li {
 		padding: 1rem 1rem;
 		font-size: 12px;
 	}
-	
 	.mu-pricing-single img {
 		max-width: 100%; /* Hacer la imagen responsiva */
 	}
-
 	.mu-hero-right img {
         max-width: 100%;
         height: auto;
     }
+	.mu-hero-left h1 {
+		bottom: 300px;
+		font-size: 30px;
+	}
+	.mu-hero-left h3 {
+		position: relative;
+		bottom: 70px;
+		left: 10px;
+	}
+	.mu-hero-left .mu-primary-btn {
+		position: relative;
+		bottom: 80px;
+	}
+	.mu-hero-left span {
+		position: relative;
+		bottom: 80px;
+	}
+	span.redline {
+		position: relative;
+		bottom: 75px;
+		font-size: 18px;
+	}
+	.mu-hero-right img{
+		position: relative;
+		top: 20px;
+	}
+	.navbar-default .navbar-toggle {
+		position: relative;
+		left: 30px;
+		bottom: 15px;
+	}
+	.mu-hero-left{
+		padding: 0;
+	}
 }
+
+@media (max-width: 320px) {
+	.navbar-brand{
+		position: relative;
+		bottom: 80px;
+		right: 10px;
+	}
+	.navbar-default .navbar-toggle {
+		position: relative;
+		left: 35px;
+		bottom: 25px;
+	}
+	.mu-hero-left h1 {
+		position: relative;
+		bottom: 280px;
+		left: 5px;
+		font-size: 23px;
+	}
+	.mu-hero-left h3 {
+		position: relative;
+		bottom: 100px;
+		left: 5px;
+		font-size: 20px;
+	}
+	.mu-hero-left .mu-primary-btn {
+		position: relative;
+		bottom: 120px;
+	}
+	.mu-hero-left span {
+		position: relative;
+		bottom: 120px;
+	}
+	span.redline {
+		position: relative;
+		bottom: 120px;
+		font-size: 15px;
+	}
+	.mu-hero-right{
+		position: relative;
+		top: 40px;
+	}
+}
+
 
 @media (max-width: 295px) {
 	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
 		margin-top: 55px;
 	}
-
 	.mu-hero-right img {
         max-width: 100%;
         height: auto;
     }
-
 	#mu-header.mu-fixed-nav{
 		padding: 10px 0px 45px 0;
 	}
 }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
+	.mu-hero-left {
+		width: 70%;
+	}
+	.mu-hero-left {
+		padding-bottom: 30px;
+		float: none;
+	}
+	.mu-hero-right {
+		position: relative;
+		bottom: 50px;
+		right: 40px;
+	}
+	.mu-hero-left h1 {
+		font-size: 25px;
+		position: relative;
+		bottom: 40px;
+		left: -5px;
+	}
+	.mu-hero-left h3 {
+		font-size: 20px;
+		position: relative;
+		bottom: 70px;
+		left: -5px;
+	}
+	.mu-hero-left .mu-primary-btn {
+		position: relative;
+		right: 15px;
+		bottom: 60px;
+	}
+	.mu-hero-left span {
+		position: relative;
+		bottom: 60px;
+		right: 25px;
+	}
+	span.redline {
+		font-size: 15px;
+		position: relative;
+		bottom: 20px;
+		left: 170px;
+		font-size: 18px;
 
+	}
+	.mu-hero-right img {
+		position: relative;
+        max-width: 150%;
+		right: 100px;
+    }
+}
+
+@media (min-width: 769px) {
 	.accordion .content-accordion {
 		margin: 0 50px 0 220px;
 	}
-
 	.accordion label {
 		margin-left: 100px;
 	}
-
 }
+
+@media (min-width: 800px) {
+	.mu-author-image {
+		position: relative;
+		right: 15px;
+	}
+	.mu-author-info {
+		position: relative;
+		right: 25px;
+	}
+	.mu-author-info h3{
+		text-align: center;
+	}
+	.mu-author-info img {
+		position: relative;
+		left: 210px;
+	}
+	.mu-author-info .mu-author-social {
+		position: relative;
+		left: 210px;
+	}
+	#mu-hero{
+		padding: 100px 0 0;
+	}
+	.mu-hero-left{
+	width: 70%;
+	}
+	.mu-hero-left h1 {
+		font-size: 30px;
+		position: relative;
+		left: -12px;
+		bottom: 0;
+	}
+    .mu-hero-right img{
+		position: relative;
+		top: 50px;
+		right: 80px;
+		max-width: 145%;
+	}
+	.mu-hero-left h3 {
+		font-size: 15px;
+		position: relative;
+		left: -12px;
+		bottom: 30px;
+	}
+	.mu-hero-left .mu-primary-btn {
+		position: relative;
+		right: 25px;
+		bottom: 30px;
+	}
+	.mu-hero-left span {
+		position: relative;
+		right: 30px;
+		bottom: 30px;
+	}
+	span.redline {
+		font-size: 15px;
+		position: relative;
+		left: -60px;
+		bottom: 50px;
+	}
+}
+
+@media (min-width: 900px) {
+	.mu-hero-left{
+		width: 100%;
+		}
+	.mu-hero-left h1 {
+		font-size: 30px;
+		left: -45px;;
+	}
+    .mu-hero-right img{
+		top: 20px;
+		left: -45px;
+		max-width: 145%;
+	}
+	.mu-hero-left h3 {
+		font-size: 18px;
+		left: -45px;
+		bottom: 30px;
+	}
+	.mu-hero-left .mu-primary-btn {
+		left: -60px;
+		bottom: 30px;
+	}
+	.mu-hero-left span {
+		right: 70px;
+		bottom: 30px;
+	}
+	span.redline {
+		font-size: 15px;
+		position: relative;
+		left: -60px;
+		bottom: 40px;
+	}
+}
+
+@media (min-width: 1440px) {
+	.navbar-header a.navbar-brand{
+		font-size: 60px;
+		line-height: 50px;
+	}
+	.container-header .navbar-default ul li a{
+		font-size: 20px;
+	}
+	#mu-hero{
+		padding: 0;
+	}
+	.navbar-brand{
+		position: relative;
+		right: 60px;
+	}
+	.navbar-right{
+		position: relative;
+		left: 100px;
+	}
+	.mu-hero-left{
+		position: relative;
+		top: 200px;
+	}
+		.mu-hero-left h1 {
+			font-size: 55px;
+			top: 20px;
+			left: -45px;;
+		}
+		.mu-hero-right img{
+			top: 280px;
+			left: -15px;
+			max-width: 140%;
+		}
+		.mu-hero-left h3 {
+			font-size: 35px;
+			top:20px;
+			left: -45px;
+			bottom: 30px;
+		}
+		.mu-hero-left .mu-primary-btn {
+			top: 20px;
+			left: -60px;
+			bottom: 30px;
+		}
+		.mu-hero-left span {
+			font-size: 20px;
+			top: 30px;
+			right: 70px;
+			bottom: 30px;
+		}
+		span.redline {
+			font-size: 30px;
+			position: relative;
+			left: 0px;
+			bottom: 200px;
+		}
+	}
+
+
