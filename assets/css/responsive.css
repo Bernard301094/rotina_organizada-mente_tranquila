@@ -715,38 +715,43 @@
 
 @media (min-width: 1440px) {
 	.navbar-header a.navbar-brand{
-		font-size: 60px;
-		line-height: 50px;
+		font-size: 40px;
+		line-height: 40px;
 	}
 	.container-header .navbar-default ul li a{
-		font-size: 20px;
+		font-size: 15px;
 	}
 	#mu-hero{
 		padding: 0;
 	}
 	.navbar-brand{
 		position: relative;
-		right: 60px;
+		right: 310px;
 	}
 	.navbar-right{
 		position: relative;
-		left: 100px;
+		left: 300px;
+		bottom: 34px;
 	}
 	.mu-hero-left{
+		width: 100%;
 		position: relative;
-		top: 200px;
+		top: 150px;
+		right: 250px;
 	}
 		.mu-hero-left h1 {
+			width: 150%;
 			font-size: 55px;
 			top: 20px;
 			left: -45px;;
 		}
 		.mu-hero-right img{
-			top: 280px;
+			top: 230px;
 			left: -15px;
-			max-width: 140%;
+			max-width: 170%;
 		}
 		.mu-hero-left h3 {
+			width: 150%;
 			font-size: 35px;
 			top:20px;
 			left: -45px;
@@ -754,20 +759,26 @@
 		}
 		.mu-hero-left .mu-primary-btn {
 			top: 20px;
-			left: -60px;
+			left: 20px;
 			bottom: 30px;
 		}
 		.mu-hero-left span {
 			font-size: 20px;
 			top: 30px;
-			right: 70px;
+			left: 10px;
 			bottom: 30px;
 		}
 		span.redline {
 			font-size: 30px;
 			position: relative;
-			left: 0px;
-			bottom: 200px;
+			left: -200px;
+			bottom: 250px;
+		}
+		#mu-header.mu-fixed-nav {
+			padding-bottom: 85px;
+		}
+		.navbar-brand br {
+			display: none; /* Oculta el salto de línea en pantallas mayores o iguales a 1440px */
 		}
 	}
 
