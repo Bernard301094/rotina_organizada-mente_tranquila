@@ -96,6 +96,27 @@
 		position: relative;
 		top: 500px;
 	}
+	.mu-author-image{
+		position: relative;
+		right: 30px;
+	}
+	.mu-author-info {
+		position: relative;
+		right: 30px;
+	}
+
+	.mu-author-info h3{
+		text-align: center;
+	}
+
+	.mu-author-info img{
+		position: relative;
+		left: 150px;
+	}
+	.mu-author-info .mu-author-social {
+		position: relative;
+		left: 150px;
+	}
 }
 
 @media (min-width:576px) and (max-width: 767px) {
