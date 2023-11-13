@@ -2,8 +2,11 @@
 /* RESPONSIVE STYLE */
 /*--------------------*/
 
-@media (max-width: 575px) {
-	
+@media (min-width: 320px) and (max-width: 575px) {
+	.navbar-header a.navbar-brand{
+		font-size: 20px;
+		line-height: 20px;
+	}
 	.navbar-default .navbar-toggle {
 		border-color: #fff;
 	}
@@ -30,14 +33,10 @@
 	
 	.mu-hero-right {
 		position: relative;
-		max-width: 110%;
 		bottom: 500px;
 		margin: 0;
 		display: flex;
         justify-content: center;
-	}
-	#mu-hero{
-		padding: 130px 0 60px;
 	}
 	.mu-author-info {
 		margin-top: 30px;
@@ -50,40 +49,39 @@
 	}
 
 	.navbar-default .navbar-toggle {
-		margin-top: 25px;
+		margin-top: 7px;
 	}
 	.mu-hero-left {
 		padding-bottom: 30px;
 		float: none;
 	}
 	.mu-hero-left h1 {
-		font-size: 50px;
+		font-size: 35px;
 		position: relative;
 		padding: 0;
-		top: 20px;
-		left: 15px;
+		top: 10px;
+		right: 0px;
 	}
 	.mu-hero-left h3 {
-		top: 10px;
-		font-size: 40px;
+		bottom: 10px;
+		font-size: 25px;
 		position: relative;
-		left: 15px;
+		right: 0;
 	}
 	span.redline {
-		margin: 100px 0;
-		font-size: 30px;
+		margin: 0;
+		font-size: 15px;
 		position: relative;
-		top: 20px;
-		left: 30px;
+		bottom: 15px;
+		left: 20px;
 	}
 	#mu-hero{
 		padding: 130px 0 0 0;
 	}
 
 	.mu-hero-left a.mu-primary-btn {
-		width: 95%;
+		width: 100%;
 		position: relative;
-		left: 15px;
 	}
 
 	.mu-hero-left span {
@@ -94,15 +92,16 @@
 
 	.mu-hero-right img {
 		position: relative;
+		max-width: 110%;
 		top: 500px;
 	}
 	.mu-author-image{
 		position: relative;
-		right: 30px;
+		right: 10px;
 	}
 	.mu-author-info {
 		position: relative;
-		right: 30px;
+		right: 15px;
 	}
 
 	.mu-author-info h3{
@@ -111,11 +110,11 @@
 
 	.mu-author-info img{
 		position: relative;
-		left: 150px;
+		left: 50px;
 	}
 	.mu-author-info .mu-author-social {
 		position: relative;
-		left: 150px;
+		left: 50px;
 	}
 }
 
