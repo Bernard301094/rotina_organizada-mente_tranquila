@@ -2,34 +2,81 @@
 /* RESPONSIVE STYLE */
 /*--------------------*/
 
-@media (max-width: 1199px) {
-	.mu-hero-left h1 {
-		font-size: 36px;
-	}
+@media (max-width: 575px) {
+	
+}
 
-	.navbar-brand img {
-		width: 180px;
-		margin-top: -10px;
+@media (min-width:576px) and (max-width: 767px) {
+	.navbar-default .navbar-brand {
+		margin-top: -7px;
 	}
-
+	.navbar-default .navbar-toggle {
+		border-color: #fff;
+	}
+	.navbar-default .navbar-toggle:hover,
+	.navbar-default .navbar-toggle:focus{
+		background-color: transparent;
+	}
+	.navbar-default .navbar-toggle .icon-bar{
+		background-color: #fff;
+	}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+		background-color: rgba(0,0,0,0.8);
+		margin-top: 25px;
+		text-align: center;
+	}
 	.navbar-default .mu-menu li a {
-		margin: 10px 12px 5px;
+		display: inline-block;
 	}
-
+	.mu-hero-right {
+		margin: 0;
+		display: flex;
+        justify-content: center;
+	}
+	.mu-hero-right img {
+		max-width: 0%;
+		height: auto;
+	}
+	#mu-hero{
+		padding: 130px 0 60px;
+	}
 	.mu-author-info {
-		margin-top: 0px;
+		margin-top: 30px;
 	}
-
+	.mu-contact-content {
+		padding: 0 10%;
+	}
 	.mu-pricing-single img {
-		max-width: 100%;
+		max-width: 100%; /* Hacer la imagen responsiva */
 	}
 	.mu-hero-right img {
         max-width: 100%;
         height: auto;
     }
-
+	.navbar-default .navbar-toggle {
+		margin-top: 25px;
+	}
+	.mu-hero-left {
+		padding-bottom: 30px;
+		float: none;
+	}
+	.mu-hero-right {
+		position: relative;
+		top: 180px;
+	}
+	.mu-hero-left h1 {
+		position: relative;
+		bottom: 430px;
+		left: 15px;
+	}
+	.mu-hero-left h3 {
+		position: relative;
+		left: 15px;
+	}
 	span.redline {
-		font-size: 25px;
+		position: relative;
+		bottom: 430px;
+		left: 60px;
 	}
 }
 
@@ -72,12 +119,10 @@
 		max-width: 100%; /* Hacer la imagen responsiva */
 	}
 	.mu-hero-right img {
-        max-width: 100%; /* Asegura que la imagen no se corte y se ajuste al ancho del contenedor */
-        height: auto; /* Ajusta la altura automáticamente para mantener la proporción de aspecto */
-    }
-	.mu-hero-right img {
-        max-width: 100%;
-        height: auto;
+		position: relative;
+        max-width: 140%;
+		right: 110px;
+		bottom: 30px;
     }
 	.container-header {
 		margin-left: 25px;
@@ -88,90 +133,281 @@
 		padding: 0 5px;
 		}
 		#mu-header.mu-fixed-nav {
-			padding: 25px 0px 45px 7px;
+			padding: 10px 0px 45px 7px;
 		}
 		span.redline {
-		font-size: 20px;
-		margin: 0;
-		text-align: center;
+			position: relative;
+			font-size: 15px;
+			margin: 0;
+			text-align: center;
+			bottom: 50px;
+			right: 50px;
+		}
+		.mu-hero-left h1 {
+			font-size: 25px;
+			width: 90%;
+			position: relative;
+			right: 10px;
+			bottom: 20px;
+		}
+		.mu-hero-left h3 {
+			font-size: 20px;
+			width: 80%;
+			position: relative;
+			right: 10px;
+			bottom: 50px;
+		}
+		.mu-hero-left a.mu-primary-btn {
+			position: relative;
+			bottom: 60px;
+			right: 20px;
+			width: 80%;
+		}
+		.mu-hero-left span {
+			position: relative;
+			bottom: 60px;
+			right: 70px;
+		}
+	}
+
+	@media (min-width: 992px) and (max-width: 1199px) {
+		.mu-hero-left{
+			width: 90%;
 		}
 		.mu-hero-left h1 {
 			position: relative;
-			right: 20px;
+			left: 10px;
+			font-size: 35px;
 		}
-}
+		.mu-hero-left h3 {
+			position: relative;
+			left: 10px;
+			bottom: 20px;
+			font-size: 20px;
+		}
+		.navbar-default .mu-menu li a {
+			margin: 10px 12px 5px;
+		}
+		.mu-author-info {
+			margin-top: 0px;
+		}
+		.mu-pricing-single img {
+			max-width: 100%;
+		}
+		.mu-hero-right img {
+			position: relative;
+			right: 65px;
+			max-width: 120%;
+			height: auto;
+		}
+		span.redline {
+			position: relative;
+			bottom: 50px;
+			left: 0;
+			font-size: 25px;
+		}
+		.mu-hero-left a.mu-primary-btn {
+			position: relative;
+			bottom: 30px;
+			left: 5px;
+		}
+		.mu-hero-left span {
+			position: relative;
+			bottom: 30px;
+			left: 0;
+		}
+	}
+
+	@media (min-width: 1200px) and (max-width: 1439px) {
+		.mu-hero-left{
+			position: relative;
+			top: 50px;
+			width: 90%;
+		}
+		.mu-hero-left h1 {
+			position: relative;
+			left: 10px;
+			bottom: 30px;
+			font-size: 50px;
+		}
+		.mu-hero-left h3 {
+			position: relative;
+			left: 10px;
+			bottom: 50px;
+			font-size: 30px;
+		}
+		.navbar-default .mu-menu li a {
+			margin: 10px 12px 5px;
+		}
+		.mu-author-info {
+			margin-top: 0px;
+		}
+		.mu-pricing-single img {
+			max-width: 100%;
+		}
+		.mu-hero-right img {
+			position: relative;
+			right: 30px;
+			top: 50px;
+			max-width: 110%;
+			height: auto;
+		}
+		span.redline {
+			position: relative;
+			bottom: 30px;
+			left: 50px;
+			font-size: 25px;
+		}
+		.mu-hero-left a.mu-primary-btn {
+			position: relative;
+			bottom: 50px;
+			left: 5px;
+		}
+		.mu-hero-left span {
+			position: relative;
+			bottom: 50px;
+			left: 0;
+		}
+		.navbar-brand br {
+			display: none;
+			font-size: 15px;
+		}
+	}
+
+	@media (min-width: 1440px) and (max-width: 1919px) {
+		.mu-hero-left{
+			position: relative;
+			top: 50px;
+			width: 120%;
+			right: 100px;
+		}
+		.mu-hero-left h1 {
+			position: relative;
+			left: 10px;
+			bottom: 30px;
+			font-size: 50px;
+		}
+		.mu-hero-left h3 {
+			position: relative;
+			left: 10px;
+			bottom: 50px;
+			font-size: 30px;
+		}
+		.navbar-default .mu-menu li a {
+			position: relative;
+			left: 100px;
+			margin: 10px 12px 5px;
+		}
+		.mu-author-info {
+			margin-top: 0px;
+		}
+		.mu-pricing-single img {
+			max-width: 100%;
+		}
+		.mu-hero-right img {
+			position: relative;
+			right: 30px;
+			top: 30px;
+			max-width: 130%;
+			height: auto;
+		}
+		span.redline {
+			position: relative;
+			top: 30px;
+			left: 25px;
+			font-size: 25px;
+		}
+		.mu-hero-left a.mu-primary-btn {
+			width: 95%;
+			position: relative;
+			bottom: 50px;
+			left: 5px;
+		}
+		.mu-hero-left span {
+			position: relative;
+			bottom: 50px;
+			right: 15px;
+		}
+		.navbar-brand br {
+			display: none;
+			font-size: 15px;
+		}
+		.navbar-brand{
+			position: relative;
+			right: 100px;
+		}
+	}
 
 
-@media (min-width:576px) and (max-width: 767px) {
-	.navbar-default .navbar-brand {
-		margin-top: -7px;
-	}
-	.navbar-default .navbar-toggle {
-		border-color: #fff;
-	}
-	.navbar-default .navbar-toggle:hover,
-	.navbar-default .navbar-toggle:focus{
-		background-color: transparent;
-	}
-	.navbar-default .navbar-toggle .icon-bar {
-		background-color: #fff;
-	}
-	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
-		background-color: rgba(0,0,0,0.8);
-		margin-top: 25px;
-		text-align: center;
-	}
-	.navbar-default .mu-menu li a {
-		display: inline-block;
-	}
-	.mu-hero-right {
-		margin: 0;
-		display: flex;
-        justify-content: center;
-	}
-	.mu-hero-right img {
-		max-width: 0%;
-		height: auto;
-	}
-	#mu-hero {
-		padding: 130px 0 60px;
-	}
-	.mu-author-info {
-		margin-top: 30px;
-	}
-	.mu-contact-content {
-		padding: 0 10%;
-	}
-	.mu-pricing-single img {
-		max-width: 100%; /* Hacer la imagen responsiva */
-	}
-	.mu-hero-right img {
-        max-width: 100%;
-        height: auto;
-    }
-	.navbar-default .navbar-toggle {
-		margin-top: 25px;
-	}
-	.mu-hero-left {
-		padding-bottom: 30px;
-		float: none;
-	}
-	.mu-hero-right {
+@media (min-width: 1920px) {
+	.mu-hero-left{
 		position: relative;
-		top: 180px;
+		top: 50px;
+		width: 150%;
+		right: 200px;
 	}
 	.mu-hero-left h1 {
 		position: relative;
-		bottom: 430px;
-		left: 15px;
+		left: 10px;
+		bottom: 30px;
+		font-size: 60px;
 	}
 	.mu-hero-left h3 {
 		position: relative;
-		left: 15px;
+		left: 10px;
+		bottom: 50px;
+		font-size: 40px;
+	}
+	.navbar-default .mu-menu li a {
+		position: relative;
+		left: 200px;
+		margin: 10px 12px 5px;
+	}
+	.mu-author-info {
+		margin-top: 0px;
+	}
+	.mu-pricing-single img {
+		max-width: 100%;
+	}
+	.mu-hero-right img {
+		position: relative;
+		left: 150px;
+		top: 30px;
+		max-width: 130%;
+		height: auto;
 	}
 	span.redline {
 		position: relative;
-		bottom: 430px;
-		left: 60px;
+		top: 30px;
+		right: 50px;
+		font-size: 30px;
+	}
+	.mu-hero-left a.mu-primary-btn {
+		width: 95%;
+		position: relative;
+		bottom: 50px;
+		left: 5px;
+	}
+	.mu-hero-left span {
+		position: relative;
+		bottom: 50px;
+		right: 15px;
+	}
+	.navbar-brand br {
+		display: none;
+		font-size: 15px;
+	}
+	.navbar-brand{
+		position: relative;
+		right: 200px;
+	}
+
+	.mu-faq-area .accordion{
+		position: relative;
+		left: 200px;
 	}
 }
+
+
+
+
