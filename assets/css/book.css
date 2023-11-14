@@ -66,7 +66,7 @@
 }
 
 .certificado {
-    background:url('/assets/images/certificado2.png') no-repeat top;
+    background:url('/assets/images/certificado.png') no-repeat top;
     background-size: 100% 100%; /* Ajusta según sea necesario */
     background-position: center;
     padding: 20px 10px; /* Ajusta según sea necesario */
@@ -74,7 +74,7 @@
     height: 280px; /* Ajusta según sea necesario */
 }
 .certificado-2{
-    background:url('/assets/images/certificado.png') no-repeat top;
+    background:url('/assets/images/certificado2.png') no-repeat top;
     background-size: 100% 100%; /* Ajusta según sea necesario */
     background-position: center;
     padding: 20px 10px; /* Ajusta según sea necesario */
