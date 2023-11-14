@@ -116,14 +116,6 @@
 		position: relative;
 		left: 50px;
 	}
-	.mu-book-overview-content .certificado {
-		width: 100%; /* Ajusta el ancho según tus necesidades */
-	}
-	.mu-book-overview-content .certificado h4 {
-		display: block;
-		font-size: 15px;
-	}
-	
 }
 
 @media (min-width:576px) and (max-width: 767px) {
@@ -197,13 +189,6 @@
 		position: relative;
 		bottom: 430px;
 		left: 60px;
-	}
-	.mu-book-overview-content .certificado {
-		width: 100%; /* Ajusta el ancho según tus necesidades */
-	}
-	.mu-book-overview-content .certificado h4 {
-		display: block;
-		font-size: 20px;
 	}
 }
 
@@ -294,13 +279,6 @@
 			position: relative;
 			bottom: 60px;
 			right: 70px;
-		}
-		.mu-book-overview-content .certificado {
-			width: 100%; /* Ajusta el ancho según tus necesidades */
-		}
-		.mu-book-overview-content .certificado h4 {
-			display: block;
-			font-size: 20px;
 		}
 	}
 

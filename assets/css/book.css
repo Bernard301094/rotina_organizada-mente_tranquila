@@ -64,17 +64,3 @@
 .mu-book-overview-single h4{
 	margin-bottom: 10px;
 }
-
-.mu-book-overview-content .certificado {
-    background: #fff url('../images/certificado.png') no-repeat center center;
-    background-size: cover;
-    width: 208%; /* Ajusta el ancho según tus necesidades */
-    height: 280px; /* Ajusta la altura según tus necesidades */
-    text-align: center; /* Alinea el contenido al centro si es necesario */
-    padding: 20px 10px; /* Ajusta el relleno según tus necesidades */
-    margin: 10px 0 15px; /* Ajusta los márgenes según tus necesidades */
-}
-
-.mu-book-overview-content .certificado h4 {
-	display: none;
-}
