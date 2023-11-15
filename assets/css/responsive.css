@@ -4,7 +4,7 @@
 
 @media (min-width: 320px) and (max-width: 575px) {
 	#mu-contact {
-		background-size: 30%;
+		background-size: 35%;
 		background-position: bottom right 10px;
 	}
 	.navbar-header a.navbar-brand{
@@ -124,7 +124,7 @@
 
 @media (min-width:576px) and (max-width: 767px) {
 	#mu-contact {
-		background-size: 25%;
+		background-size: 30%;
 		background-position: bottom right 10px;
 	}
 	.navbar-default .navbar-brand {
