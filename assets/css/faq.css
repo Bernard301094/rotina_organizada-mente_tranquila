@@ -2,7 +2,7 @@
 /* FAQ */
 /*--------------------*/
 
-#mu-faq {
+#mu-faq{
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -10,7 +10,7 @@
 	float: left;
 	position: relative;
 	width: 100%;
-  }
+}
 
   .mu-faq-area {
     display: inline;
