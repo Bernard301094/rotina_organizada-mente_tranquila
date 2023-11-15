@@ -21,6 +21,7 @@
 }
 
 .mu-send-msg-btn {
+	border: 2px solid #555;
 	border-radius: 20px;
 	font-size: 13px;
 	font-weight: 700;
@@ -37,4 +38,5 @@
 .mu-send-msg-btn:hover,
 .mu-send-msg-btn:focus {
 	background-color: #fff;
+	border: 2px solid #ff871c;
 }

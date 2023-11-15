@@ -40,6 +40,12 @@
 	text-align: center;
 	border: 2px solid #545454;
 }
+
+.mu-hero-left .mu-primary-btn:hover{
+	color: #545454;
+}
+
+
 .mu-hero-left span {
     text-align: center;
 	margin: 10px 0 10px 20px;

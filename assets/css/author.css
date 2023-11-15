@@ -65,4 +65,9 @@
 	color: #fff;
 	width: 35px;
 	text-align: center;
+	border-radius: 50%;
+}
+
+.mu-author-social a:hover {
+	background-color: #545454;
 }

@@ -85,16 +85,19 @@
 .mu-order-btn {
 	background-color: #ff871c;
 	border-radius: 100px;
-	border: 1px solid #555;
+	border: 2px solid #555;
 	color: #fff;
 	display: inline-block;
 	font-size: 15px;
-	font-weight: 400;
 	letter-spacing: 1.5px;
 	padding: 12px 25px;
-	font-weight: 500;
+	font-weight: 700;
 	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
 	text-transform: uppercase;
+}
+
+.mu-order-btn:hover {
+	border: 2px solid #ff871c;
 }
 

@@ -44,6 +44,10 @@
 	background-color: #fff;
 }
 
+.mu-social-media a:hover{
+	color: #555;
+}
+
 .mu-copyright {
 	margin-top: 10px;
 	display: inline-block;
