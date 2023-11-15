@@ -5,6 +5,7 @@
 #mu-contact{
 	background: #f8f8f8 url(/assets/images/smile.png) no-repeat bottom right;
 	background-size: 20%;
+	background-position: bottom right 120px;
 	display: inline;
 	float: left;
 	width: 100%;
@@ -116,11 +117,3 @@
      -moz-border-radius: 4px;
           border-radius: 4px;
 }
-
-.smile {
-	position: relative;
-	left: 600px;
-	width: 300px;
-	height: 300px;
-}
-

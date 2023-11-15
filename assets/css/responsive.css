@@ -3,6 +3,10 @@
 /*--------------------*/
 
 @media (min-width: 320px) and (max-width: 575px) {
+	#mu-contact {
+		background-size: 30%;
+		background-position: bottom right 10px;
+	}
 	.navbar-header a.navbar-brand{
 		font-size: 20px;
 		line-height: 20px;
@@ -119,6 +123,10 @@
 }
 
 @media (min-width:576px) and (max-width: 767px) {
+	#mu-contact {
+		background-size: 25%;
+		background-position: bottom right 10px;
+	}
 	.navbar-default .navbar-brand {
 		margin-top: -7px;
 	}
@@ -193,6 +201,10 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+	#mu-contact {
+		background-size: 25%;
+		background-position: bottom right 30px;
+	}
 	.mu-fixed-nav .navbar-brand {
 		font-size: 25px;
 	}
@@ -387,66 +399,26 @@
 	}
 
 	@media (min-width: 1440px) and (max-width: 1919px) {
-		.mu-hero-left{
-			position: relative;
-			top: 50px;
-			width: 120%;
-			right: 100px;
+		.navbar-default .mu-menu li {
+			margin-left: 10px; /* Ajusta según sea necesario */
+			margin-right: 10px; /* Ajusta según sea necesario */
 		}
-		.mu-hero-left h1 {
+	
+		.navbar-brand {
 			position: relative;
-			left: 10px;
-			bottom: 30px;
-			font-size: 50px;
+			right: 0; /* Ajusta según sea necesario */
 		}
+	
+		.mu-hero-left {
+			position: relative;
+			width: 100%; /* Ajusta según sea necesario */
+		}
+	
+		.mu-hero-left h1,
 		.mu-hero-left h3 {
 			position: relative;
-			left: 10px;
-			bottom: 50px;
-			font-size: 30px;
-		}
-		.navbar-default .mu-menu li a {
-			position: relative;
-			left: 100px;
-			margin: 10px 12px 5px;
-		}
-		.mu-author-info {
-			margin-top: 0px;
-		}
-		.mu-pricing-single img {
-			max-width: 100%;
-		}
-		.mu-hero-right img {
-			position: relative;
-			right: 30px;
-			top: 30px;
-			max-width: 130%;
-			height: auto;
-		}
-		span.redline {
-			position: relative;
-			top: 30px;
-			left: 25px;
-			font-size: 25px;
-		}
-		.mu-hero-left a.mu-primary-btn {
-			width: 95%;
-			position: relative;
-			bottom: 50px;
-			left: 5px;
-		}
-		.mu-hero-left span {
-			position: relative;
-			bottom: 50px;
-			right: 15px;
-		}
-		.navbar-brand br {
-			display: none;
-			font-size: 15px;
-		}
-		.navbar-brand{
-			position: relative;
-			right: 100px;
+			left: 0;
+			bottom: 0;
 		}
 	}
 
@@ -469,11 +441,6 @@
 		left: 10px;
 		bottom: 50px;
 		font-size: 40px;
-	}
-	.navbar-default .mu-menu li a {
-		position: relative;
-		left: 200px;
-		margin: 10px 12px 5px;
 	}
 	.mu-author-info {
 		margin-top: 0px;
@@ -509,11 +476,12 @@
 		display: none;
 		font-size: 15px;
 	}
-	.navbar-brand{
-		position: relative;
-		right: 200px;
+	.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+		margin-left: -220px;
 	}
-
+	.navbar-right {
+		margin-right: -300px;
+	}
 	.mu-faq-area .accordion{
 		position: relative;
 		left: 200px;
