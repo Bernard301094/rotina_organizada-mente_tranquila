@@ -66,7 +66,7 @@
 }
 
 .certificado {
-    background: #fff url('/assets/images/certificado.png') no-repeat top;
+    background: #fff url('/assets/images/certificado.webp') no-repeat top;
     background-size: 100% 100%; /* Ajusta según sea necesario */
     background-position: center;
     padding: 20px 10px; /* Ajusta según sea necesario */
