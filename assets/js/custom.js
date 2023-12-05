@@ -83,35 +83,3 @@
 	
 	
 })( jQuery );
-
-
-// Función para obtener o establecer la cantidad de visitas
-function contarVisitas() {
-    // Verificar si la cookie 'visitas' ya está presente
-    if (document.cookie.indexOf('visitas=') >= 0) {
-        // La cookie ya existe, obtenemos el valor actual y lo incrementamos
-        var visitas = parseInt(getCookie('visitas')) + 1;
-        // Actualizamos la cookie con el nuevo valor
-        document.cookie = 'visitas=' + visitas;
-        return visitas;
-    } else {
-        // La cookie no existe, establecemos la cantidad de visitas a 1
-        document.cookie = 'visitas=1';
-        return 1;
-    }
-}
-
-// Función para obtener el valor de una cookie por nombre
-function getCookie(nombre) {
-    var nombreEQ = nombre + "=";
-    var cookies = document.cookie.split(';');
-    for (var i = 0; i < cookies.length; i++) {
-        var cookie = cookies[i];
-        while (cookie.charAt(0) === ' ') cookie = cookie.substring(1, cookie.length);
-        if (cookie.indexOf(nombreEQ) === 0) return cookie.substring(nombreEQ.length, cookie.length);
-    }
-    return null;
-}
-
-// Llamada a la función para contar las visitas y mostrar el resultado en la consola
-console.log('Número total de visitas: ' + contarVisitas());
